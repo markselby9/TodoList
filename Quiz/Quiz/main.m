@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "QuizAppDelegate.h"
+#import "TodoListAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([QuizAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TodoListAppDelegate class]));
     }
 }
