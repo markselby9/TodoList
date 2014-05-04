@@ -23,6 +23,9 @@
 		F5907726190F3B1B004EAE03 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5907725190F3B1B004EAE03 /* QuizTests.m */; };
 		F59176A219108DD3003897AB /* ListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F59176A119108DD3003897AB /* ListItem.m */; };
 		F5B4CE931910A74800101B09 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B4CE921910A74800101B09 /* ItemDetailViewController.m */; };
+		F5D4233B1915D22C0050D2A3 /* AllListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D4233A1915D22C0050D2A3 /* AllListViewController.m */; };
+		F5D4233E1915D7430050D2A3 /* AllListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D4233D1915D7430050D2A3 /* AllListItem.m */; };
+		F5D423411915EC8E0050D2A3 /* AllListItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D423401915EC8E0050D2A3 /* AllListItemDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		F59176A119108DD3003897AB /* ListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListItem.m; sourceTree = "<group>"; };
 		F5B4CE911910A74800101B09 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
 		F5B4CE921910A74800101B09 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		F5D423391915D22C0050D2A3 /* AllListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListViewController.h; sourceTree = "<group>"; };
+		F5D4233A1915D22C0050D2A3 /* AllListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListViewController.m; sourceTree = "<group>"; };
+		F5D4233C1915D7430050D2A3 /* AllListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListItem.h; sourceTree = "<group>"; };
+		F5D4233D1915D7430050D2A3 /* AllListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListItem.m; sourceTree = "<group>"; };
+		F5D4233F1915EC8E0050D2A3 /* AllListItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListItemDetailViewController.h; sourceTree = "<group>"; };
+		F5D423401915EC8E0050D2A3 /* AllListItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListItemDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +138,12 @@
 				F59176A119108DD3003897AB /* ListItem.m */,
 				F5B4CE911910A74800101B09 /* ItemDetailViewController.h */,
 				F5B4CE921910A74800101B09 /* ItemDetailViewController.m */,
+				F5D423391915D22C0050D2A3 /* AllListViewController.h */,
+				F5D4233A1915D22C0050D2A3 /* AllListViewController.m */,
+				F5D4233C1915D7430050D2A3 /* AllListItem.h */,
+				F5D4233D1915D7430050D2A3 /* AllListItem.m */,
+				F5D4233F1915EC8E0050D2A3 /* AllListItemDetailViewController.h */,
+				F5D423401915EC8E0050D2A3 /* AllListItemDetailViewController.m */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -260,11 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D4233B1915D22C0050D2A3 /* AllListViewController.m in Sources */,
 				F59176A219108DD3003897AB /* ListItem.m in Sources */,
 				F5907707190F3B1B004EAE03 /* main.m in Sources */,
 				F590770B190F3B1B004EAE03 /* TodoListAppDelegate.m in Sources */,
+				F5D4233E1915D7430050D2A3 /* AllListItem.m in Sources */,
 				F5907711190F3B1B004EAE03 /* TodoListViewController.m in Sources */,
 				F5B4CE931910A74800101B09 /* ItemDetailViewController.m in Sources */,
+				F5D423411915EC8E0050D2A3 /* AllListItemDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
